@@ -5,6 +5,7 @@
   import Lockscreen from "./lockscreen.svelte";
   import Searchscreen from "./SearchScreen.svelte";
   import Notificationarea from "./notificationarea.svelte";
+  import PhoneApp from "./apps/phone.svelte";
 
   let screen = true;
 </script>
@@ -12,8 +13,8 @@
 <div class="iphone">
   <div class="screen">
     {#if screen}
-      <Notificationarea />
-      <Homescreen />
+      <PhoneApp />
+      <!-- <Homescreen /> -->
       <!-- <Searchscreen /> -->
     {:else}
       <Lockscreen />
@@ -22,7 +23,9 @@
 
   <div class="notch">
     <div class="mouthpiece" />
-    <div class="camera" />
+    <div class="camera">
+      <div class="camera1" />
+    </div>
   </div>
   <div class="silentswicth" />
   <div class="volume">
@@ -40,7 +43,7 @@
     transform: translate(-50%, -50%) scale(1.1);
     width: 280px;
     height: 540px;
-    background: #ffffff;
+    background: var(--iphonespacegray);
     border-radius: 35px;
     box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2),
       0 40px 100px rgba(0, 0, 0, 0.4);
@@ -73,7 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: var(--iphonespacegray);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -81,14 +84,25 @@
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #262626;
+    background: #3d3d3d;
+    margin-top: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iphone .notch .camera .camera1 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #505050;
   }
   .iphone .notch .mouthpiece {
     height: 5px;
     width: 50px;
-    background: #262626;
+    background: #3d3d3d;
     border-radius: 2px;
     margin-right: 10px;
+    margin-top: -3px;
   }
   .iphone .silentswicth {
     position: absolute;
@@ -107,7 +121,7 @@
   }
   .iphone .volume .volup {
     position: inherit;
-    width: 4px;
+    width: 3px;
     height: 30px;
     background: white;
     border-top-left-radius: 3px;
@@ -116,7 +130,7 @@
   }
   .iphone .volume .voldown {
     position: inherit;
-    width: 4px;
+    width: 3px;
     height: 30px;
     background: white;
     border-top-left-radius: 3px;
@@ -128,7 +142,7 @@
     position: absolute;
     top: 20%;
     left: 100%;
-    width: 4px;
+    width: 3px;
     height: 70px;
     background: white;
     border-top-right-radius: 3px;

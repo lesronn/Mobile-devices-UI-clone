@@ -9,10 +9,17 @@
   const handleNextClick = () => {
     carousel.goToNext();
   };
+  let phone = false;
+
+  const days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
+
+  const d = new Date();
+  let day = days[d.getDay()];
+  let date = d.getDate();
 </script>
 
 <div class="homescreen">
-  <!-- <Notificationarea /> -->
+  <Notificationarea />
   <Carousel bind:this={carousel} arrows={false} swiping={true} infinite={false}>
     <div class="icons">
       <div class="icons_container">
@@ -47,8 +54,11 @@
             <span>Facetime</span>
           </div>
           <div class="appiconname">
-            <img src="/images/icons/call.png" alt="" />
-            <span>Phone</span>
+            <div class="calender">
+              <span class="dayname">{day}</span>
+              <span class="day">{date}</span>
+            </div>
+            <span>Calender</span>
           </div>
 
           <div class="appiconname">
@@ -267,6 +277,29 @@
   .homescreen .icons .appiconname span {
     padding-top: 2px;
     text-transform: capitalize;
+  }
+  .homescreen .icons .calender {
+    background: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homescreen .icons .calender .dayname {
+    color: crimson;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -3px;
+    text-transform: uppercase;
+  }
+  .homescreen .icons .calender .day {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -3px;
   }
 
   .homescreen .icons img {

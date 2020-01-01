@@ -2,6 +2,22 @@
   --bodyfont: 17pt;
   --subheadfont: 15pt;
   --footnote: 13pt;
+  --blue: rgb(0, 122, 225);
+  --red: rgb(225, 59, 48);
+  --orange: rgb(255, 149, 0);
+  --yellow: rgb(255, 204, 0);
+  --green: rgb(52, 199, 89);
+  --mint: rgb(0, 199, 190);
+  --teal: rgb(48, 176, 199);
+  --cyan: rgb(50, 173, 230);
+  --indigo: rgb(88, 86, 214);
+  --purple: rgb(175, 82, 222);
+  --pink: rgb(255, 45, 85);
+  --brown: rgb(162, 132, 94);
+  --grey: rgb(142, 142, 147);
+
+  --iphonesilver: rgb(228, 228, 226);
+  --iphonespacegray: rgb(37, 40, 42);
 }
 
 body {
