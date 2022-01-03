@@ -1,0 +1,24 @@
+:root {
+  --bodyfont: 17pt;
+  --subheadfont: 15pt;
+  --footnote: 13pt;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "sf";
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}
+@font-face {
+  font-family: "sf";
+  src: url("/fonts/SFUIDisplay-Regular.otf");
+}
+
+@font-face {
+  font-family: "sflight";
+  src: url("/fonts/SFUIDisplay-Thin.otf");
+}
