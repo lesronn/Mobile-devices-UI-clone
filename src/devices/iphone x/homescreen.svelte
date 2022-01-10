@@ -1,43 +1,99 @@
 <script>
   import Notificationarea from "./notificationarea.svelte";
+  import { onMount } from 'svelte';
+import Carousel from 'svelte-carousel'
+  let screen = true;
+
+
+let carousel; // for calling methods of the carousel instance
+const handleNextClick = () => {
+  carousel.goToNext()
+}
+
 </script>
 
 <div class="homescreen">
-  <Notificationarea />
-  <div class="icons">
-    <div class="icons_container">
-      <div class="row">
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-      </div>
-      <div class="row">
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-      </div>
-      <div class="row">
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-      </div>
-      <div class="row">
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-      </div>
-      <div class="row">
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-        <img src="/images/icons/call.png" alt="" />
-      </div>
+  <!-- <Notificationarea /> -->
+  <Carousel
+  bind:this={carousel}
+  arrows = {false}
+  swiping = {true}
+  infinite = {false}
+>
+<div class="icons">
+  <div class="icons_container">
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
     </div>
   </div>
+</div>
+
+<div class="icons">
+  <div class="icons_container">
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+    <div class="row">
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+      <img src="/images/icons/call.png" alt="" />
+    </div>
+  </div>
+</div>
+</Carousel>
+
+
+  
   <div class="appbar">
     <div class="appicons">
       <img src="/images/icons/call.png" alt="" />
@@ -50,7 +106,7 @@
 
 <style>
   .homescreen {
-    height: 100%;
+    height: 100vh !important;
     width: 100%;
   }
 
@@ -75,6 +131,12 @@
   .homescreen .icons img {
     height: 40px;
     width: 40px;
+    cursor: pointer;
+    -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
   }
   .homescreen .appbar {
     position: absolute;
@@ -97,5 +159,6 @@
     height: 40px;
     width: 40px;
     cursor: pointer;
+    
   }
 </style>

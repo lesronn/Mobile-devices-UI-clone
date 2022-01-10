@@ -3,14 +3,19 @@
 
   import Homescreen from "./homescreen.svelte";
   import Lockscreen from "./lockscreen.svelte";
+import Searchscreen from "./SearchScreen.svelte"
+import Notificationarea from"./notificationarea.svelte"
 
   let screen = true;
+  
 </script>
 
 <div class="iphone">
   <div class="screen">
+
     {#if screen}
-      <Homescreen />
+    <Notificationarea/>
+      <Searchscreen />
     {:else}
       <Lockscreen />
     {/if}
@@ -56,6 +61,7 @@
     border-radius: 25px;
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
     cursor: grab;
+    overflow: hidden;
   }
 
   .iphone .notch {
