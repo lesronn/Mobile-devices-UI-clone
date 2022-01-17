@@ -3,19 +3,17 @@
 
   import Homescreen from "./homescreen.svelte";
   import Lockscreen from "./lockscreen.svelte";
-import Searchscreen from "./SearchScreen.svelte"
-import Notificationarea from"./notificationarea.svelte"
+  import Searchscreen from "./SearchScreen.svelte";
+  import Notificationarea from "./notificationarea.svelte";
 
   let screen = true;
-  
 </script>
 
 <div class="iphone">
   <div class="screen">
-
     {#if screen}
-    <Notificationarea/>
-      <Searchscreen />
+      <Notificationarea />
+      <Homescreen />
     {:else}
       <Lockscreen />
     {/if}

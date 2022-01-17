@@ -18,6 +18,7 @@
   <div class="batteryside">
     <div class="network"><FaSignal /></div>
     <div class="wifi"><IoIosWifi /></div>
+    <!-- <div style="font-size: 9px; padding: 0px 3px; padding-top:1px;">LTE</div> -->
     <div class="battery"><IoIosBatteryFull /></div>
   </div>
 </div>

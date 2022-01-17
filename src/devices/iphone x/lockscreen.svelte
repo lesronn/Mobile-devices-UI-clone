@@ -53,7 +53,7 @@
     </div>
   </div>
   <div class="home">
-    <p>swipe up to unlock</p>
+    <p>swipe up to open</p>
     <div class="homeswipe" />
   </div>
   <div class="bottomicons">
