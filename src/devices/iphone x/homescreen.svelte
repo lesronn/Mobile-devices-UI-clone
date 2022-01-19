@@ -219,8 +219,8 @@
     width: 55px;
   }
   .homescreen .icons .row .widgets .music .micon {
-    height: 16px;
-    width: 16px;
+    height: 13px;
+    width: 13px;
   }
 
   .homescreen .icons .row .widgets .music .musicdown {
