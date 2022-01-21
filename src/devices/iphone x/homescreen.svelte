@@ -41,29 +41,85 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+        <div class="row firstrow">
+          <div class="appiconname">
+            <img src="/images/icons/facetime.png" alt="" />
+            <span>Facetime</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/call.png" alt="" />
+            <span>Phone</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/photos.png" alt="" />
+            <span>Photos</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/camera.png" alt="" />
+            <span>Camera</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/mail.png" alt="" />
+            <span>Mail</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/clock.png" alt="" />
+            <span>clock</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/mapp.png" alt="" />
+            <span>Maps</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/weather.png" alt="" />
+            <span>Weather</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/reminder.png" alt="" />
+            <span>reminder</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/notes.png" alt="" />
+            <span>Notes</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/books.png" alt="" />
+            <span>Books</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/appstore.png" alt="" />
+            <span>App Store</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/health.png" alt="" />
+            <span>Health</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/home.png" alt="" />
+            <span>Home</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/appletv.png" alt="" />
+            <span> Tv</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/settings.png" alt="" />
+            <span>settings</span>
+          </div>
         </div>
       </div>
     </div>
@@ -71,34 +127,95 @@
     <div class="icons">
       <div class="icons_container">
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/files.png" alt="" />
+            <span>files</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/find.png" alt="" />
+            <span>Find My</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/compass.png" alt="" />
+            <span> Compass</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/shortcuts.png" alt="" />
+            <span>Shortcuts</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/contacts.png" alt="" />
+            <span>Contacts</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/calculator.png" alt="" />
+            <span>Calculator</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/tips.png" alt="" />
+            <span>Tips</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/measure.png" alt="" />
+            <span>Measure</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/podcast.png" alt="" />
+            <span>Podcast</span>
+          </div>
+
+          <div class="appiconname">
+            <img src="/images/icons/stocks.png" alt="" />
+            <span>Stocks</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/imessage.png" alt="" />
+            <span>Imessage</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/voice.png" alt="" />
+            <span>voice</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/wallet.png" alt="" />
+            <span>Wallet</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/news.png" alt="" />
+            <span>News</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/safari.png" alt="" />
+            <span>safari</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/music15.png" alt="" />
+            <span>music</span>
+          </div>
         </div>
         <div class="row">
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
-          <img src="/images/icons/call.png" alt="" />
+          <div class="appiconname">
+            <img src="/images/icons/snapchat.png" alt="" />
+            <span>snapchat</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/twitter.png" alt="" />
+            <span>twitter</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/instagram.png" alt="" />
+            <span>instagram</span>
+          </div>
+          <div class="appiconname">
+            <img src="/images/icons/whatsapp.png" alt="" />
+            <span>Whatsapp</span>
+          </div>
         </div>
       </div>
     </div>
@@ -109,7 +226,7 @@
       <img src="/images/icons/call.png" alt="" />
       <img src="/images/icons/safari.png" alt="" />
       <img src="/images/icons/imessage.png" alt="" />
-      <img src="/images/icons/music.png" alt="" />
+      <img src="/images/icons/music15.png" alt="" />
     </div>
   </div>
 </div>
@@ -128,14 +245,28 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
+    margin: 5px 20px;
   }
   .homescreen .icons .row {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  .homescreen .icons .firstrow {
+    margin-top: 15px;
+  }
+  .homescreen .icons .appiconname {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .homescreen .icons .appiconname span {
+    padding-top: 2px;
+    text-transform: capitalize;
   }
 
   .homescreen .icons img {
@@ -163,6 +294,15 @@
     flex-direction: column;
     border-radius: 10px;
     justify-content: space-between;
+  }
+  .homescreen .icons .row .widgets .reminder:after {
+    content: "Reminder";
+    position: absolute;
+    margin-top: 92px;
+    font-size: 10px;
+    text-align: center !important;
+    color: white;
+    padding-left: 19px;
   }
   .homescreen .icons .row .widgets .reminder .rtop {
     display: flex;
@@ -207,6 +347,16 @@
     flex-direction: column;
     border-radius: 10px;
   }
+
+  .homescreen .icons .row .widgets .music:after {
+    content: "Music";
+    position: absolute;
+    margin-top: 94px;
+    font-size: 10px;
+    text-align: center !important;
+    color: white;
+    padding-left: 25px;
+  }
   .homescreen .icons .row .widgets .music .musictop {
     display: flex;
     flex-direction: row;
@@ -215,8 +365,8 @@
   }
   .homescreen .icons .row .widgets .music .thumbnail {
     border-radius: 5px;
-    height: 55px;
-    width: 55px;
+    height: 47px;
+    width: 47px;
   }
   .homescreen .icons .row .widgets .music .micon {
     height: 13px;

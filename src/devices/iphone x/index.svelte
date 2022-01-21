@@ -14,6 +14,7 @@
     {#if screen}
       <Notificationarea />
       <Homescreen />
+      <!-- <Searchscreen /> -->
     {:else}
       <Lockscreen />
     {/if}
