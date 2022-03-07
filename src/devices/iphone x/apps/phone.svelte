@@ -112,7 +112,6 @@
   .phoneapp .tabbar .tabs .icon {
     height: 18px;
     width: 18px;
-    /* justify-content: center; */
   }
   .phoneapp .tabbar .tabs .tab {
     height: 100%;
