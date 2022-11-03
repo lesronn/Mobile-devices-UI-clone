@@ -6,7 +6,7 @@
 
 ## App Demo WebSite
 
-🔗🔗🔗 https://ios-calculator-lyart.vercel.app
+🔗🔗🔗 https://mobile-devices-ui-clone.vercel.app
 
 ## Get started
 
