@@ -54,8 +54,23 @@
     </div>
   </div>
 </div>
+<div class="responsive">
+  <h4>This app is not available smaller screens</h4>
+</div>
 
 <style>
+  .responsive {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    .world {
+      display: none !important;
+    }
+    .responsive {
+      display: block;
+      text-align: center;
+    }
+  }
   .world {
     width: 100%;
     height: 100vh !important;
