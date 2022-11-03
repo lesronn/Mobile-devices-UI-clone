@@ -13,7 +13,7 @@
       hour12: false,
     });
     currentime = time;
-  }, 1000);
+  }, 10);
 
   var date = new Date();
   let currentdate = date.toLocaleString("default", {

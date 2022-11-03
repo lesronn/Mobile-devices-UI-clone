@@ -10,7 +10,7 @@
       hour12: false,
     });
     currentime = time;
-  }, 1000);
+  }, 10);
 </script>
 
 <div class="notificationarea">

@@ -2,6 +2,12 @@
 
 <p>Cloning Popular Mobile devices Ui clone with Svelte js</p>
 
+![image](https://github.com/lesronn/Mobile-devices-UI-clone/blob/main/public/screen.png)
+
+## App Demo WebSite
+
+🔗🔗🔗 https://ios-calculator-lyart.vercel.app
+
 ## Get started
 
 Install the dependencies...
@@ -10,8 +16,6 @@ Install the dependencies...
 cd svelte-app
 npm install
 ```
-
-...then start [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev

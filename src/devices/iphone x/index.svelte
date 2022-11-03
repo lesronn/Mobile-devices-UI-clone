@@ -10,45 +10,106 @@
   let screen = true;
 </script>
 
-<div class="iphone">
-  <div class="screen">
-    {#if screen}
-      <PhoneApp />
-      <!-- <Homescreen /> -->
-      <!-- <Searchscreen /> -->
-    {:else}
-      <Lockscreen />
-    {/if}
-  </div>
+<div class="world">
+  <div class="phone-side">
+    <div class="iphone">
+      <div class="screen">
+        {#if screen}
+          <!-- <PhoneApp /> -->
+          <Homescreen />
+          <!-- <Searchscreen /> -->
+        {:else}
+          <Lockscreen />
+        {/if}
+      </div>
 
-  <div class="notch">
-    <div class="mouthpiece" />
-    <div class="camera">
-      <div class="camera1" />
+      <div class="notch">
+        <div class="mouthpiece" />
+        <div class="camera">
+          <div class="camera1" />
+        </div>
+      </div>
+      <div class="silentswicth" />
+      <div class="volume">
+        <div class="volup" />
+        <div class="voldown" />
+      </div>
+      <div class="powerbtn" />
     </div>
   </div>
-  <div class="silentswicth" />
-  <div class="volume">
-    <div class="volup" />
-    <div class="voldown" />
+  <div class="info-side">
+    <div class="main-info">
+      <h2>Mobile Ui Devices Clone</h2>
+    </div>
+    <marquee behavior="" direction="right">
+      This app is still under development
+    </marquee>
+    <div class="info-side-footer">
+      <p>
+        Developed with ❤️ | by <a
+          href="https://github.com/lesronn"
+          target="_blank"><strong>Lesron</strong></a
+        >.
+      </p>
+    </div>
   </div>
-  <div class="powerbtn" />
 </div>
 
 <style>
+  .world {
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: row;
+  }
+  .world .phone-side {
+    height: 100vh !important;
+    width: 100%;
+    background: #eee;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .world .info-side {
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    font-family: "Rubik" !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-info {
+    flex: 95%;
+  }
+
+  .info-side h2 {
+    padding: 20px 80px;
+  }
+  .info-side-footer {
+    flex: 5%;
+    display: flex;
+    height: 100%;
+    font-size: 16px;
+    flex: 5%;
+    height: 100%;
+    border-top: 1px dashed #333;
+    color: black;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-side-footer a {
+    color: #333;
+  }
   .iphone {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.1);
+    position: relative;
+
     width: 280px;
     height: 540px;
     background: var(--iphonespacegray);
     border-radius: 35px;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2),
-      0 40px 100px rgba(0, 0, 0, 0.4);
-    transition: 0.5s;
+
     z-index: 99;
+    outline: none;
   }
   .iphone .screen {
     position: absolute;
@@ -110,9 +171,9 @@
     right: 100%;
     width: 3px;
     height: 15px;
-    background: white;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
+    background: var(--iphonespacegray);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
   }
   .iphone .volume {
     position: absolute;
@@ -121,18 +182,18 @@
   }
   .iphone .volume .volup {
     position: inherit;
-    width: 3px;
+    width: 5px;
     height: 30px;
-    background: white;
+    background: var(--iphonespacegray);
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     cursor: pointer;
   }
   .iphone .volume .voldown {
     position: inherit;
-    width: 3px;
+    width: 5px;
     height: 30px;
-    background: white;
+    background: var(--iphonespacegray);
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     margin-top: 40px;
@@ -142,9 +203,9 @@
     position: absolute;
     top: 20%;
     left: 100%;
-    width: 3px;
+    width: 5px;
     height: 70px;
-    background: white;
+    background: var(--iphonespacegray);
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     cursor: pointer;
